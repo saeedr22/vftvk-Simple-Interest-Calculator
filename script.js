@@ -26,8 +26,8 @@ function validate() {
     if (model.year == null || model.year == 0) {
         alert('please enter years ');
         return false;
-    } else if (model.principal == null || model.principal == 0) {
-        alert('please enter Amount');
+    } else if (model.principal == null || model.principal <= 0) {
+        alert('please enter valid Amount');
         return false;
     } else if (model.rate == null) {
         alert('please enter rate');
