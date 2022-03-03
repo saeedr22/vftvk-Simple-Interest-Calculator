@@ -1,4 +1,20 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+    background-color: black;
+    font-family: tahoma;
+    color: white
+}
 
+h1 {
+    color: grey;
+    font-family: verdana, Geneva, Tahoma, sans-serif
+}
 
+.maindiv {
+    background-color: white;
+    color: black;
+    width: 500px;
+    padding: 20px;
+    border-radius: 25px;
+    align: center;
+    margin: auto;
+}
