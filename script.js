@@ -28,6 +28,7 @@ function validate() {
         return false;
     } else if (model.principal == null || model.principal <= 0) {
         alert('please enter valid Amount');
+        document.getElementById('principal').focus();
         return false;
     } else if (model.rate == null) {
         alert('please enter rate');
